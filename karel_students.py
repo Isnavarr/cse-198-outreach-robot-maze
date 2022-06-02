@@ -122,7 +122,14 @@ if __name__ == '__main__':
         START CODE BELOW
         '''
         # Make the robot move a certain direction
-        nextStep = forward()
+        if #Replace me with Boolean here:
+            nextStep = #Replace me with movement here 
+        elif #Replace me with Boolean here:
+            nextStep = #Replace me with movement here
+        elif #Replace me with Boolean here:
+            nextStep = #Replace me with movement here
+        else:
+            nextStep = #Replace me with movement here
         ''' 
         END CODE
         '''
