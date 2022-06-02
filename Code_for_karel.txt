@@ -11,10 +11,10 @@ not detectObject('S') and not haveIBeenHereBefore(forward())
 not detectObject('E') and not haveIBeenHereBefore(right())
 
 # Check if there is not a wall West of Karel, and Karel has not traveled there before
-not detectObject('E') and not haveIBeenHereBefore(right())
+not detectObject('W') and not haveIBeenHereBefore(left())
 
 # Check if there is not a wall North of Karel, and Karel has not traveled there before
-not detectObject('E') and not haveIBeenHereBefore(right())
+not detectObject('N') and not haveIBeenHereBefore(backward())
 
 
 
