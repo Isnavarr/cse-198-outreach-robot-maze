@@ -1,0 +1,34 @@
+#This code is useful for programing karel, use them wisely
+
+
+
+#booleans
+
+# Check if there is not a wall South of Karel, and Karel has not traveled there before
+not detectObject('S') and not haveIBeenHereBefore(forward())
+
+# Check if there is not a wall East of Karel, and Karel has not traveled there before
+not detectObject('E') and not haveIBeenHereBefore(right())
+
+# Check if there is not a wall West of Karel, and Karel has not traveled there before
+not detectObject('E') and not haveIBeenHereBefore(right())
+
+# Check if there is not a wall North of Karel, and Karel has not traveled there before
+not detectObject('E') and not haveIBeenHereBefore(right())
+
+
+
+
+#Movement
+
+#Move Karel South
+forward()
+
+#Move Karel East
+right()
+
+Move Karel West
+left()
+
+Move Karel North
+backward()
